@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Glossary.Model.Theme" Collapsed="true">
+    <Position X="7" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAABAAAAACAAQBAEAAAAECAAEAAQAAIAAAEAAA=</HashCode>
+      <FileName>Model\Theme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glossary.Control.TermsIO">
+    <Position X="3.25" Y="1.25" Width="1.75" />
+    <Members>
+      <Method Name="GetAllCharsInVocab" Hidden="true" />
+      <Method Name="GetAllThemeNames" Hidden="true" />
+      <Method Name="GetAllVocabNames" Hidden="true" />
+      <Method Name="GetAllVocabs" Hidden="true" />
+      <Method Name="GetAllVocabsIDsInTheme" Hidden="true" />
+      <Method Name="GetAllVocabsNamesInTheme" Hidden="true" />
+      <Method Name="GetTermParentList" Hidden="true" />
+      <Method Name="GetVocabByName" Hidden="true" />
+      <Method Name="NormalizeName" Hidden="true" />
+      <Method Name="readTerms" Hidden="true" />
+      <Method Name="readThemes" Hidden="true" />
+      <Method Name="readVocabs" Hidden="true" />
+      <Method Name="Search" Hidden="true" />
+      <Method Name="SearchDefinition" Hidden="true" />
+      <Method Name="SearchDefinitionInTheme" Hidden="true" />
+      <Method Name="SearchDefinitionInVocab" Hidden="true" />
+      <Method Name="SearchInTheme" Hidden="true" />
+      <Method Name="SearchInVocab" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AA0ABCAACVACAEAgARACAiwgAlACAAAAQgBEQAAgAEE=</HashCode>
+      <FileName>Control\TermsIO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
