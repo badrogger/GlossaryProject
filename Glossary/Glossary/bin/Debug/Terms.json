@@ -1,10 +1,12 @@
-{"ID":0,"Definition":"Устройство или система, способное выполнять заданную чётко определённую изменяемую последовательность операций.","Children":[10,2],"Parent":-1,"Vocab":3,"Name":"компьютер"}
-{"ID":2,"Definition":"Им играют в баскетбол.","Children":[],"Parent":0,"Vocab":5,"Name":"мяч"}
-{"ID":6,"Definition":"2 вершины","Children":[],"Parent":-1,"Vocab":6,"Name":"диагональ"}
+{"ID":0,"Definition":"Устройство или система, способное выполнять заданную чётко определённую изменяемую последовательность операций.","Children":[10],"Parent":-1,"Vocab":3,"Name":"компьютер"}
+{"ID":2,"Definition":"Им играют в баскетбол.","Children":[],"Parent":-1,"Vocab":5,"Name":"мяч"}
 {"ID":7,"Definition":"В нее забрасывают","Children":[],"Parent":-1,"Vocab":5,"Name":"корзина"}
 {"ID":8,"Definition":"Группа людей","Children":[],"Parent":-1,"Vocab":5,"Name":"команда"}
 {"ID":10,"Definition":"Инструкция к системе.","Children":[],"Parent":0,"Vocab":3,"Name":"команда"}
 {"ID":11,"Definition":"Группа людей.","Children":[],"Parent":-1,"Vocab":7,"Name":"команда"}
-{"ID":13,"Definition":"Наука о пр-ве\r\n","Children":[14],"Parent":-1,"Vocab":6,"Name":"геометрия"}
-{"ID":14,"Definition":"Множетсво точек, соединенных линиями\r\n","Children":[],"Parent":13,"Vocab":6,"Name":"фигура"}
+{"ID":13,"Definition":"Наука о пространстве.\r\n","Children":[14],"Parent":-1,"Vocab":6,"Name":"геометрия"}
+{"ID":14,"Definition":"Множетсво точек, соединенных линиями\r\n","Children":[16],"Parent":13,"Vocab":6,"Name":"фигура"}
 {"ID":15,"Definition":"Им играют в футбол","Children":[],"Parent":-1,"Vocab":7,"Name":"мяч"}
+{"ID":16,"Definition":"Фигура с 4-мя углами.","Children":[17],"Parent":14,"Vocab":6,"Name":"четырехугольник"}
+{"ID":17,"Definition":"Противолежащие стороны равны.","Children":[18],"Parent":16,"Vocab":6,"Name":"параллелограм"}
+{"ID":18,"Definition":"ПГМ, у которых все стороны равны.","Children":[],"Parent":17,"Vocab":6,"Name":"ромб"}

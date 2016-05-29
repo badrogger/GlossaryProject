@@ -89,7 +89,7 @@
             this.label2.Size = new System.Drawing.Size(118, 17);
             this.label2.TabIndex = 12;
             this.label2.Text = "Термин-родитель";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            
             // 
             // label1
             // 
@@ -120,7 +120,7 @@
             this.tbDefinition.Name = "tbDefinition";
             this.tbDefinition.Size = new System.Drawing.Size(390, 150);
             this.tbDefinition.TabIndex = 9;
-            this.tbDefinition.TextChanged += new System.EventHandler(this.tbDescription_TextChanged);
+            
             // 
             // tbName
             // 

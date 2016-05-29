@@ -18,11 +18,10 @@ namespace Glossary.View
             InitializeComponent();
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
 
-        }
-
+        /// <summary>
+        ///  Обработчик нажатия на кнопку сохранить.
+        /// </summary>
         private void bAddOK_Click(object sender, EventArgs e)
         {
             try {
@@ -36,11 +35,15 @@ namespace Glossary.View
             MessageBox.Show("Словарь с таким именем уже существует");
 
         }
+
         private void bAddCancel_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        /// <summary>
+        /// Обработчик загрузки формы.
+        /// </summary>
         private void fAddVocab_Load(object sender, EventArgs e)
         {
             cbTheme.DataSource = TermsIO.GetAllThemeNames(); 

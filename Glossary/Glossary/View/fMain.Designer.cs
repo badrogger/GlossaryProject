@@ -287,7 +287,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "fMain";
-            this.Text = " ";
+            this.Text = "  Словарь терминов";
             this.Load += new System.EventHandler(this.fMain_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.fMain_KeyDown);
             this.menuStrip1.ResumeLayout(false);

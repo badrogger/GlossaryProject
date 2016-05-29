@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Glossary.Model;
 using System.IO;
+using System.Text.RegularExpressions;
 using Glossary.Control;
 using Glossary.View;
 
@@ -33,7 +34,6 @@ namespace Glossary
         /// </summary>
         private void fMain_Load(object sender, EventArgs e)
         {
-            
             TermsIO.Read();
             cbSearchWay.SelectedIndex = 0;
             cbSearchWay.SelectedIndexChanged += cbSearchWay_SelectedIndexChanged;
@@ -99,7 +99,13 @@ namespace Glossary
         /// Поиск терминов
         /// </summary>
         private void Search(String cterm) {
-            cterm = cterm.ToLower(); 
+            cterm = cterm.ToLower();
+            Regex regex = new Regex("^[а-яА-ЯёЁ]+$");
+            if (!chSearchType.Checked && cterm != "" && !regex.IsMatch(cterm)) {
+                MessageBox.Show("Неправильный формат ввода(термин слвдует воодить русскими буквами)");
+                return; 
+            }
+                
             pResult.Controls.Add(new Label());
             labels.Clear();
             tvParent.Nodes.Clear();

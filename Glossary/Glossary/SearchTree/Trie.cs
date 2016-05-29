@@ -119,7 +119,7 @@ namespace Glossary.SearchTree
             {
                 res.AddRange(cur.Items);
             }
-            if (cur == null) { cur = prev; }
+            if (cur == null) { return res;  }
             TravelAndAdd(cur, res);
             return res;
         }
